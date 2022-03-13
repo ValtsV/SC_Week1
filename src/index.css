@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+
+  .raleway {
+    font-family: "Raleway", sans-serif;
+  }
+
+  h1 {
+    @apply text-2xl font-bold;
+  }
+  h2 {
+    @apply text-[1.3125rem] font-semibold;
+  }
+  h3 {
+    @apply text-[1rem] font-bold;
+  }
+  h4 {
+    @apply text-[0.8125rem] font-bold;
+  }
+  h5 {
+    @apply text-[1rem] font-semibold;
+  }
+  h6 {
+    @apply text-xl font-bold;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .active {
+    color: #121625;
+    border-bottom: solid 2px #32d5a4;
+  }
+
+  #tabs-tab li:hover {
+    border-bottom: solid 2px #32d5a4;
+    cursor: pointer;
+  }
+
+  /* WORKAROUND for TipTap - Check for how to add classes to initial content */
+  .make-p-gray {
+    color: #a5a8b3;
+  }
+
+  .make-prose-mirror-taller {
+    height: 200px;
+  }
+
+  #login-image-goes-here {
+    background-image: url("https://campus.open-bootcamp.com/static/media/loginBg.d5df93411eebaa346771.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>OpenBootcamp</title>
+  </head>
+  <body>
+    <div class="flex">
+      <div
+        class="h-screen lg:w-[500px] w-full bg-gray-900 flex flex-col justify-center"
+      >
+        <!-- This is an example component -->
+        <div class="w-[470px] mx-auto p-10">
+          <div class="bg-white max-w-sm p-4 sm:p-6 lg:p-8 dark:bg-gray-900">
+            <form class="space-y-6" action="#">
+              <h3 class="text-xl font-medium text-gray-900 dark:text-white">
+                OpenBootcamp nuevo LOGO JJ
+              </h3>
+              <div>
+                <label
+                  for="email"
+                  class="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-300"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                  placeholder="Introduce tu email"
+                  required=""
+                />
+              </div>
+              <div>
+                <label
+                  for="password"
+                  class="relative block text-sm font-medium text-gray-900 block mb-2 dark:text-gray-300"
+                  >Contraseña
+                  <span
+                    class="absolute mt-[15px] right-2 flex justify-right items-center pl-2"
+                  >
+                    <svg
+                      width="23"
+                      height="23"
+                      viewBox="0 0 23 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 9a3.02 3.02 0 0 0-3 3c0 1.642 1.358 3 3 3 1.641 0 3-1.358 3-3 0-1.641-1.359-3-3-3z"
+                        fill="#fff"
+                      />
+                      <path
+                        d="M12 5c-7.633 0-9.927 6.617-9.948 6.684L1.946 12l.105.316C2.073 12.383 4.367 19 12 19s9.927-6.617 9.948-6.684l.106-.316-.105-.316C21.927 11.617 19.633 5 12 5zm0 12c-5.351 0-7.424-3.846-7.926-5C4.578 10.842 6.652 7 12 7c5.351 0 7.424 3.846 7.926 5-.504 1.158-2.578 5-7.926 5z"
+                        fill="#fff"
+                      />
+                    </svg>
+                  </span>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Introduce tu contraseña"
+                    class="mt-1.5 bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                    required=""
+                  />
+                </label>
+              </div>
+              <div class="flex items-start">
+                <div class="flex items-start">
+                  <div class="flex items-center h-5">
+                    <input
+                      id="remember"
+                      aria-describedby="Recuérdame"
+                      type="checkbox"
+                      class="bg-gray-50 border border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                      required=""
+                    />
+                  </div>
+                  <div class="text-sm ml-3">
+                    <label
+                      for="remember"
+                      class="font-medium text-gray-900 dark:text-gray-300"
+                      >Recuérdame</label
+                    >
+                  </div>
+                </div>
+                <a
+                  href="#"
+                  class="text-sm text-[#32D4A4] hover:underline ml-auto dark:text-[#32D4A4]"
+                  >¿Has olvidado la contraseña?</a
+                >
+              </div>
+              <button
+                type="submit"
+                class="w-full text-black bg-blue-700 hover:bg-[#32D4A41A] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-[#32D4A4] dark:focus:ring-blue-800"
+              >
+                Iniciar sesión
+              </button>
+            </form>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="mt-5 text-gray-300">Copyright blah blah blah</p>
+            <a
+              class="text-[#32D4A4] hover:underline"
+              href="https://google.es"
+              target="_blank"
+              >Política de Privacidad</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        id="login-image-goes-here"
+        class="lg:block hidden w-full px-[10%] py-[150px] flex flex-col"
+      >
+        <!-- Got to import BLACK for da font -->
+        <h1
+          class="py-[50px] text-[72px] leading-[56px] font-black text-white uppercase"
+        >
+          Revoluciona <br />tu carrera
+        </h1>
+        <span class="text-[28px] text-white uppercase tracking-[0.5rem]">
+          Y da salto al mundo laboral
+        </span>
+      </div>
+    </div>
+    <script src="index.js" type="module" />
+  </body>
+</html>

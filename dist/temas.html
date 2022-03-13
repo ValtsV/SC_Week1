@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="/discusiones.61d3354a.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Raleway:wght@600&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bg-[#F8F8F9]">
+
+      <!-- NAVBAR -->
+      <header class="max-w-[1672px] pt-[18px] pb-3 m-auto">
+
+        <!-- LEFT SIDE -->
+        <div class="flex justify-between">
+          <div class="flex gap-5">
+            <svg viewbox="0 0 30 35" xmlns="http://www.w3.org/2000/svg" class="css-3vreaw w-7">
+              <ellipse cx="11.5563" cy="11.5375" rx="11.5563" ry="11.5375" fill="#0BF082"></ellipse>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M23.9491 11.5371H11.5557V23.6375H11.5562V34.1596H23.9496C27.291 34.1596 29.9998 31.4508 29.9998 28.1094C29.9998 25.8553 28.7671 23.8892 26.9391 22.8482C28.7668 21.8072 29.9993 19.8412 29.9993 17.5873C29.9993 14.2459 27.2905 11.5371 23.9491 11.5371Z" fill="#047AF3"></path>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M23.1125 11.5391C23.1123 17.9109 17.9384 23.0762 11.5562 23.0762C11.556 23.0762 11.5558 23.0762 11.5557 23.0762V11.5391H23.1125Z" fill="#0DC0CB"></path>
+            </svg>
+            <button class="text-2xl font-bold">
+                OpenBootcamp</button>
+          </div>
+
+          <!-- RIGHT SIDE -->
+          <div class="flex gap-5">
+
+            <!-- SEARCH INPUT -->
+            <label class="w-40 relative block">
+              <span class="absolute inset-y-0 left-2 flex items-center pl-2">
+                <svg class="h-5 w-5 fill-slate-300" viewbox="0 0 19 19">
+                  <path d="M8 16C9.846 16 11.543 15.365 12.897 14.312L17.293 18.708L18.707 17.294L14.311 12.898C15.365 11.543 16 9.846 16 8C16 3.589 12.411 2.57666e-08 8 1.66089e-08C3.589 7.45115e-09 1.03521e-08 3.589 2.30753e-08 8C3.57984e-08 12.411 3.589 16 8 16ZM8 2C11.309 2 14 4.691 14 8C14 11.309 11.309 14 8 14C4.691 14 2 11.309 2 8C2 4.691 4.691 2 8 2Z" fill="#A5A8B3"></path>
+                </svg>
+              </span>
+              <input class="placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-full py-2 pl-12 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Buscar" type="text" name="search">
+            </label>
+
+            <!-- USER DATA -->
+            <div class="rounded-full bg-white inline-flex">
+              <div class="bg-[#121625] w-10 h-10 rounded-full flex justify-center">
+                <span class="text-[#515561] self-center">VV</span>
+
+                <!-- TODO: IMAGE GOES HERE -->
+              </div>
+              <span class="ml-5 mr-5 self-center">User name</span>
+              <svg class="mr-5 self-center" width="10" height="7" viewbox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.57747 0.744141L4.99997 4.32164L1.42247 0.744141L0.244141 1.92247L4.99997 6.67831L9.75581 1.92247L8.57747 0.744141Z" fill="#A5A8B3"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- MAIN SECTION -->
+      <div class="max-w-[1672px] p-10 m-auto flex gap-8">
+
+        <!-- SIDEBAR -->
+        <div class="flex flex-col gap-5">
+          <div class="w-[275px] flex items-center">
+              <!-- <img class="w-7 h-7 mx-2.5 my-[7px]" src="./assets/home.png" /> -->
+              <span class="mx-[13px] my-[7px]">🏠</span>
+            <button class="raleway">Página principal</button>
+          </div>
+          <hr>
+          <div class="flex justify-between">
+            <button class="text-sm font-bold">Cursos</button>
+            <svg class="self-center" width="10" height="7" viewbox="0 0 10 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.57747 0.744141L4.99997 4.32164L1.42247 0.744141L0.244141 1.92247L4.99997 6.67831L9.75581 1.92247L8.57747 0.744141Z" fill="#A5A8B3"></path>
+            </svg>
+          </div>
+
+          <!-- DROPDOWN MENU -->
+          <!-- SHOW WITH JS -->
+          <div class="raleway">
+          <div class="bg-[#E6E6EA] flex rounded-lg">
+              <img class="w-7 h-7 mx-2.5 my-[7px]" src="/Angular%2013.d5f1e10f.png">
+            <button class="text-[15px] font-semibold">Angular</button>
+          </div>
+            <div class="flex">
+                <img class="w-7 h-7 mx-2.5 my-[7px]" src="/react.d4cdd22b.png">
+            <button class="text-[15px] font-semibold">React JS</button>
+            </div>
+            <div class="flex">
+                <img class="w-7 h-7 mx-2.5 my-[7px]" src="/spring.0a0cf332.png">
+            <button class="text-[15px] font-semibold">Spring</button>
+            </div>
+            <div class="flex">
+                <img class="w-7 h-7 mx-2.5 my-[7px]" src="/js.3a20b5a1.png">
+            <button class="text-[15px] font-semibold">Java Script</button>
+            </div>
+            <div class="flex">
+                <img class="w-7 h-7 mx-2.5 my-[7px]" src="/git.344e7f74.png">
+            <button class="text-[15px] font-semibold">Git</button>
+            </div>
+            <div class="flex">
+                <img class="w-7 h-7 mx-2.5 my-[7px]" src="/azure.3f59b9c9.png">
+              <button class="text-[15px] font-semibold">Azure</button>
+            </div>
+            </div>  
+            </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="w-full flex flex-col gap-5">
+          <div class="h-[247px] bg-gradient-[91.73deg] from-[#CD252A] via-[#E52A4D] to-[#AC1C50] rounded-xl  flex flex-col-reverse">
+            <div class="px-6 bg-white rounded-xl">
+                <div class="my-4 relative flex justify-between">
+                    <div class="bg-white absolute bottom-0 rounded-[20px]">
+                        <img class="h-[90px] border-4 rounded-[20px]" src="/Angular%2013.d5f1e10f.png">
+                    </div>
+                    <h1 class="ml-28 self-end">Angular</h1>
+
+
+                    <button class="h-[42px] px-4 ml-2 bg-[#32D4A41A] rounded-lg inline-flex items-center">
+                        <svg width="20" height="15" viewbox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.294 4.292L13.994 8.584L12.702 7.292L11.288 8.706L13.994 11.41L19.706 5.708L18.294 4.292ZM2 4C2 6.28 3.72 8 6 8C8.28 8 10 6.28 10 4C10 1.72 8.28 4.26367e-09 6 3.08962e-09C3.72 1.91556e-09 2 1.72 2 4ZM8 4C8 5.178 7.178 6 6 6C4.822 6 4 5.178 4 4C4 2.822 4.822 2 6 2C7.178 2 8 2.822 8 4ZM2 14C2 12.346 3.346 11 5 11L7 11C8.654 11 10 12.346 10 14L10 15L12 15L12 14C12 11.243 9.757 9 7 9L5 9C2.243 9 5.38181e-09 11.243 6.70153e-09 14L7.18021e-09 15L2 15L2 14Z" fill="#32D5A4"></path>
+                            </svg>
+                            
+                            
+                                          
+                           <h3 class="px-2 text-[#32D4A4]">Siguiendo</h3>
+                        
+        
+                      </button>
+                </div>
+              <hr>
+              <div class="my-5 flex">
+              <label class="w-full relative block grow">
+                <span class="absolute inset-y-0 left-2 flex items-center pl-2">
+                  <svg class="h-5 w-5" viewbox="0 0 19 19">
+                    <path d="M8 16C9.846 16 11.543 15.365 12.897 14.312L17.293 18.708L18.707 17.294L14.311 12.898C15.365 11.543 16 9.846 16 8C16 3.589 12.411 2.57666e-08 8 1.66089e-08C3.589 7.45115e-09 1.03521e-08 3.589 2.30753e-08 8C3.57984e-08 12.411 3.589 16 8 16ZM8 2C11.309 2 14 4.691 14 8C14 11.309 11.309 14 8 14C4.691 14 2 11.309 2 8C2 4.691 4.691 2 8 2Z" fill="#515561"></path>
+                  </svg>
+                </span>
+                <input class="placeholder:text-[#A5A8B3] block bg-[#E6E6EA] w-full border border-slate-300 rounded-lg py-2 pl-12 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Buscar" type="text" name="search">
+              </label>
+              
+              
+
+            <button class="px-4 ml-2 bg-[#E6E6EA] rounded-lg inline-flex items-center">
+                <svg class="" width="18" height="14" viewbox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.00033 13.6673L7.33366 10.334H4.83366V0.333984H3.16699V10.334H0.666992L4.00033 13.6673ZM8.16699 3.66732H15.667V5.33398H8.16699V3.66732ZM8.16699 7.00065H14.0003V8.66732H8.16699V7.00065ZM8.16699 0.333984H17.3337V2.00065H8.16699V0.333984ZM8.16699 10.334H12.3337V12.0006H8.16699V10.334Z" fill="#121625"></path>
+                    </svg>
+                    
+                                  
+                   <span class="px-4 whitespace-nowrap">Ordenar por</span>
+                <svg class="mr-2" width="10" height="7" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 10 7"><path d="M8.57747 0.744141L4.99997 4.32164L1.42247 0.744141L0.244141 1.92247L4.99997 6.67831L9.75581 1.92247L8.57747 0.744141Z" fill="#121625"></path></svg>
+
+              </button>
+          </div>
+          </div>
+        </div>
+
+        <!-- CARDS SECTION -->
+        <div class="flex flex-wrap gap-[15px]">
+
+
+            <!-- CARD STARTS -->
+            <div class="h-[250px] w-full lg:w-[calc(33%-10px)] md:w-[calc(50%-7.5px)] xl:w-[calc(25%-11.25px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-gradient-[99.9deg] from-[#32D4A4] to-[#32D4D4] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#23ADA5] rounded-full flex justify-center items-center">
+                        <svg width="25" height="24" viewbox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.8335 0.333984H3.16683C1.88 0.333984 0.833496 1.38048 0.833496 2.66732V16.6673C0.833496 17.9542 1.88 19.0007 3.16683 19.0007H6.66683V23.3955L13.99 19.0007H21.8335C23.1203 19.0007 24.1668 17.9542 24.1668 16.6673V2.66732C24.1668 1.38048 23.1203 0.333984 21.8335 0.333984ZM21.8335 16.6673H13.3437L9.00016 19.2725V16.6673H3.16683V2.66732H21.8335V16.6673Z" fill="white"></path>
+                            <path d="M6.66683 6.16732H18.3335V8.50065H6.66683V6.16732ZM6.66683 10.834H14.8335V13.1673H6.66683V10.834Z" fill="white"></path>
+                            </svg>
+                            
+                    </div> 
+                    <h2 class="ml-5 text-white">General</h2>
+                </div>
+                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+                    <span class="font-semibold text-lg">Dudas general</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD ENDS -->
+
+
+            <div class="h-[250px] w-full lg:w-[calc(33%-10px)] md:w-[calc(50%-7.5px)] xl:w-[calc(25%-11.25px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-gradient-[98.96deg] from-[#EC555E] to-[#C72D64] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#B21E50] rounded-full flex justify-center items-center">
+                        <svg width="22" height="22" viewbox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.73457 8.66618H12.0679V14.4995H9.73457V8.66618ZM9.7334 15.6662H12.0667V17.9995H9.7334V15.6662Z" fill="white"></path>
+                            <path d="M12.9626 1.89916C12.5566 1.13499 11.7656 0.660156 10.9 0.660156C10.0343 0.660156 9.2433 1.13499 8.8373 1.90032L0.276302 18.0738C-0.109865 18.8042 -0.0865316 19.6617 0.339302 20.3698C0.765135 21.0768 1.5118 21.4992 2.3378 21.4992H19.4621C20.2881 21.4992 21.036 21.0768 21.4618 20.3698C21.8865 19.6628 21.911 18.8042 21.5248 18.0738L12.9626 1.89916ZM2.3378 19.1658L10.9 2.99232L19.468 19.1658H2.3378Z" fill="white"></path>
+                            </svg>
+                            
+                            
+                    </div>
+                    <h2 class="ml-5 text-white">Errores</h2>
+                </div>
+                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+                    <span class="font-semibold text-lg">Errores</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[250px] w-full lg:w-[calc(33%-10px)] md:w-[calc(50%-7.5px)] xl:w-[calc(25%-11.25px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-gradient-[97.33deg] from-[#2834BA] to-[#3966DB] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#1B2382] rounded-full flex justify-center items-center">
+                        <svg width="20" height="19" viewbox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.20113 5.3397L10.2675 9.8512L13.3953 8.11287L5.4223 3.55704L2.20113 5.3397ZM17.3001 8.6297V12.3339L14.9668 13.5005V9.9352L11.4691 11.8929L11.4668 18.5184L19.6335 13.98V7.3242L17.3001 8.6297ZM9.13346 11.8917L0.966797 7.32304V13.98L9.13346 18.5184V11.8917ZM15.78 6.7887L18.398 5.33387L10.3235 0.845703L7.81163 2.2352L15.78 6.7887Z" fill="white"></path>
+                            </svg>
+                            
+                            
+                            
+                    </div>
+                <h2 class="ml-5 text-white">Proyectos</h2>
+            </div>
+                                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+
+                    <span class="font-semibold text-lg">Proyectos</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[250px] w-full lg:w-[calc(33%-10px)] md:w-[calc(50%-7.5px)] xl:w-[calc(25%-11.25px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-[#040F36] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#28EDB240] rounded-full flex justify-center items-center">
+                        <span class="text-[#28EDB2]">1</span> 
+                    </div>
+                    <h2 class="ml-5 text-white">Módulo NR</h2>
+                </div>
+                                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+
+                    <span class="font-semibold text-lg">Card Title</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[250px] w-full lg:w-[calc(33%-10px)] md:w-[calc(50%-7.5px)] xl:w-[calc(25%-11.25px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-[#040F36] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#28EDB240] rounded-full flex justify-center items-center">
+                        <span class="text-[#28EDB2]">2</span> 
+                    </div>
+                    
+                    <h2 class="ml-5 text-white">Módulo NR</h2>
+                </div>
+                                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+
+                    <span class="font-semibold text-lg">Card Title</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[250px] w-full lg:w-[calc(33%-10px)] md:w-[calc(50%-7.5px)] xl:w-[calc(25%-11.25px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-[#040F36] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#28EDB240] rounded-full flex justify-center items-center">
+                        <span class="text-[#28EDB2]">2</span> 
+                    </div>
+                    
+                    <h2 class="ml-5 text-white">Módulo NR</h2>
+                </div>
+                                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+
+                    <span class="font-semibold text-lg">Card Title</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[250px] w-full lg:w-[calc(33%-10px)] md:w-[calc(50%-7.5px)] xl:w-[calc(25%-11.25px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-[#040F36] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#28EDB240] rounded-full flex justify-center items-center">
+                        <span class="text-[#28EDB2]">2</span> 
+                    </div>
+                    
+                    <h2 class="ml-5 text-white">Módulo NR</h2>
+                </div>
+                                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+
+                    <span class="font-semibold text-lg">Card Title</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[250px] w-full lg:w-[calc(33%-10px)] md:w-[calc(50%-7.5px)] xl:w-[calc(25%-11.25px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-[#040F36] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#28EDB240] rounded-full flex justify-center items-center">
+                        <span class="text-[#28EDB2]">2</span> 
+                    </div>
+                    
+                    <h2 class="ml-5 text-white">Módulo NR</h2>
+                </div>
+                                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+
+                    <span class="font-semibold text-lg">Card Title</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[250px] w-[calc(33% - 10px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-[#040F36] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#28EDB240] rounded-full flex justify-center items-center">
+                        <span class="text-[#28EDB2]">2</span> 
+                    </div>
+                    
+                    <h2 class="ml-5 text-white">Módulo NR</h2>
+                </div>
+                                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+
+                    <span class="font-semibold text-lg">Card Title</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[250px] w-full lg:w-[calc(33%-10px)] md:w-[calc(50%-7.5px)] xl:w-[calc(25%-11.25px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-[#040F36] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#28EDB240] rounded-full flex justify-center items-center">
+                        <span class="text-[#28EDB2]">2</span> 
+                    </div>
+                    
+                    <h2 class="ml-5 text-white">Módulo NR</h2>
+                </div>
+                                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+
+                    <span class="font-semibold text-lg">Card Title</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="h-[250px] w-full lg:w-[calc(33%-10px)] md:w-[calc(50%-7.5px)] xl:w-[calc(25%-11.25px)] 2xl:w-[calc(20%-12px)]">
+                <div class="h-[110px] bg-[#040F36] rounded-t-xl flex items-center">
+                    <div class="h-[45px] w-[45px] ml-6 bg-[#28EDB240] rounded-full flex justify-center items-center">
+                        <span class="text-[#28EDB2]">2</span> 
+                    </div>
+                    
+                    <h2 class="ml-5 text-white">Módulo NR</h2>
+                </div>
+                                <div class="h-[140px] p-6 bg-white rounded-b-xl flex flex-col justify-between">
+
+                    <span class="font-semibold text-lg">Card Title</span>
+                    <div class="flex gap-[5px]">
+                        <svg width="17" height="18" viewbox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.7666 13.9993V17.1377L7.99744 13.9993H11.9333C12.8524 13.9993 13.5999 13.2518 13.5999 12.3327V5.66602C13.5999 4.74685 12.8524 3.99935 11.9333 3.99935H1.93327C1.0141 3.99935 0.266602 4.74685 0.266602 5.66602L0.266602 12.3327C0.266602 13.2518 1.0141 13.9993 1.93327 13.9993H2.7666ZM1.93327 5.66602H11.9333V12.3327H7.53577L4.43327 14.1943V12.3327H1.93327L1.93327 5.66602Z" fill="#515561"></path>
+                            <path d="M15.2666 0.666016L5.2666 0.666016C4.34744 0.666016 3.59994 1.41352 3.59994 2.33268H13.5999C14.5191 2.33268 15.2666 3.08018 15.2666 3.99935V10.666C16.1858 10.666 16.9333 9.91852 16.9333 8.99935V2.33268C16.9333 1.41352 16.1858 0.666016 15.2666 0.666016Z" fill="#515561"></path>
+                            </svg>
+                            
+                            <span class="font-semibold text-[13px] text-[#A5A8B3]">666 preguntas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- <script src="/js/main.js"/> -->
+  </div><script src="/temas.77dd44e2.js"></script></body>
+</html>
